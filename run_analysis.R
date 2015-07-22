@@ -48,6 +48,6 @@ cleanMerge <- cbind(join_Subject,join_Y, join_X)
 write.table(cleanMerge, "merged_data.txt")
 
 #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-Data <- aggregate(. ~subject + activity, cleanMerge, mean)
-Data <- arrange(Data, subject, activity)
-write.table(Data, file = "tidy_merged_data.txt", row.name=FALSE)
+meanData <- aggregate(. ~subject + activity, cleanMerge, mean)
+meanData <- arrange(meanData, subject, activity)
+write.table(meanData, file = "tidy_merged_data.txt", row.name=FALSE)
