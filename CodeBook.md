@@ -15,11 +15,10 @@ The run_analysis.R script performs the following steps to clean the data:
     in a variable called features. Extract only the measurements on the mean 
     and standard deviation for each measurement.  The result is a 10299x66 data frame.
     
-    Use descriptive activity names to name the activities in the data set. 
+Use descriptive activity names to name the activities in the data set. 
     I remove the "-" and "()" symbols from the names and capitalize the first letter of "mean" and "std".
     
-    Read the activity_labels.txt file from the "Data"" folder and store 
-    the data in a variable called activity.
+Read the activity_labels.txt file from the "Data"" folder and store the data in a variable called activity.
     I clean the activity names in the second column of this data set. 
     I take out the "_" symbol from the names. 
     I make all the letters in the words lowercase. 
@@ -34,7 +33,7 @@ The run_analysis.R script performs the following steps to clean the data:
     The last 66 columns contain measurements that range from -1 to 1 exclusive. 
     Write the cleanMerge out to "merged_data.txt" file.
     
-    Create a second independent tidy data set with the average of each measurement for each activity and each subject.
+Create a second independent tidy data set with the average of each measurement for each activity and each subject.
     I aggregate the data by subject and activity to form a data frame that is a combination of the two. 
     For each combination, I calculate the mean of each measurement. 
     Then, I arange the data by subject and activity. The end result is a 180x68 data frame. Write the result out to       "tidy_merged_data.txt" file.
