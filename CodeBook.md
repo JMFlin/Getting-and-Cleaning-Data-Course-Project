@@ -36,4 +36,4 @@ The run_analysis.R script performs the following steps to clean the data:
  8. Create a second independent tidy data set with the average of each measurement for each activity and each subject.
  I aggregate the data by subject and activity to form a data frame that is a combination of the two. 
  For each combination, I calculate the mean of each measurement. 
- Then, I arange the data by subject and activity. The end result is a 180x68 data frame. Write the result out to       "tidy_merged_data.txt" file.
+ Then, I arrange the data by subject and activity. The end result is a 180x68 data frame. Write the result out to       "tidy_merged_data.txt" file.
