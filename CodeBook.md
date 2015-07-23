@@ -2,10 +2,10 @@ The run_analysis.R script performs the following steps to clean the data:
 
 
  1. Read X_train.txt, y_train.txt and subject_train.txt from "./Data/train" folder 
- and store them in train_X, train_Y and train_Subject variables respectively.
+ and store them in train_X, train_Y and train_Subject variables.
     
  2. Read X_test.txt, y_test.txt and subject_test.txt from "./Data/test" folder 
- and store them in test_X, test_Y and test_Subject variables respectively.
+ and store them in test_X, test_Y and test_Subject variables.
     
  3. Merge test_X and test_X to form join_X, which is a 10299x561 data frame. 
  Merge test_Y and train_Y to form join_Y, which is a 10299x1 data frame. 
