@@ -23,7 +23,7 @@ The run_analysis.R script performs the following steps to clean the data:
  I take out the "_" symbol from the names. 
  I make all the letters in the words lowercase. 
  I then capitalize "Down" and "Up" to make the names easier to read. 
- Transform the values of joinLabel according to the activity data frame. 
+ Transform the values of join_Y according to the activity data frame. 
  Name the column name "activity".
     
  7. Name the column of join_Subject to "subject". 
