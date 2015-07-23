@@ -8,7 +8,7 @@
     
   Two output files are generated in the current working directory:
   merged_data.txt that contains a data frame called cleanMerge and
-  data_with_means.txt that contains a data frame called tidy_merged_data.txt.
+  tidy_merged_data.txt that contains a data frame called meanData.
         
   Use file_name <- read.table("tidy_merged_data.txt") command in RStudio to read the file.
 
