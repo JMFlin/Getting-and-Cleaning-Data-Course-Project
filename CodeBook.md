@@ -26,14 +26,14 @@ The run_analysis.R script performs the following steps to clean the data:
  Transform the values of joinLabel according to the activity data frame. 
  Name the column name "activity".
     
- 7.Name the column of join_Subject to "subject". 
+ 7. Name the column of join_Subject to "subject". 
  Combine the join_Subject, join_Y and join_X by column to get a new cleaned data frame called cleanMerge. 
  The "subject" column contains integers that range from 1 to 30 inclusive. 
  The "activity" column contains 6 kinds of activity names. 
  The last 66 columns contain measurements that range from -1 to 1 exclusive. 
  Write the cleanMerge out to "merged_data.txt" file.
     
- 8.Create a second independent tidy data set with the average of each measurement for each activity and each subject.
+ 8. Create a second independent tidy data set with the average of each measurement for each activity and each subject.
  I aggregate the data by subject and activity to form a data frame that is a combination of the two. 
  For each combination, I calculate the mean of each measurement. 
  Then, I arange the data by subject and activity. The end result is a 180x68 data frame. Write the result out to       "tidy_merged_data.txt" file.
